@@ -1,0 +1,238 @@
+fileFormatVersion: 2
+guid: d8704bace7fb5e9448011cb011a104b3
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable:
+  - first:
+      74: -4086864642940237741
+    second: Armature|Swim
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|Swim
+      takeName: Armature|Swim
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 67
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Whale(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature
+      parentName: Whale(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Root
+      parentName: Armature
+      position: {x: -0, y: 0, z: -0.015}
+      rotation: {x: 0.37850922, y: 0.00043258685, z: -0.0004325867, w: 0.92559737}
+      scale: {x: 1, y: 0.9999998, z: 0.9999998}
+    - name: Spine1
+      parentName: Root
+      position: {x: -0.00007284522, y: 0.015036929, z: 0.04606332}
+      rotation: {x: 0.18216316, y: -0.0026388557, z: 0.0009233403, w: 0.9832644}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Spine2
+      parentName: Spine1
+      position: {x: 4.3368084e-20, y: 0.046729505, z: 1.8859282e-10}
+      rotation: {x: 0.02018383, y: 0.00015875498, z: -0.0030221753, w: 0.99979174}
+      scale: {x: 0.9999999, y: 1.0000002, z: 0.99999994}
+    - name: Spine3
+      parentName: Spine2
+      position: {x: -2.4483597e-11, y: 0.049661465, z: -7.442395e-11}
+      rotation: {x: -0.03864671, y: -0.00021454795, z: 0.0030187278, w: 0.9992484}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: Spine4
+      parentName: Spine3
+      position: {x: -8.320752e-12, y: 0.051482372, z: 7.4492856e-11}
+      rotation: {x: -0.05331416, y: 1.45519135e-11, z: -0.0000000082500256, w: 0.9985778}
+      scale: {x: 1, y: 1.0000004, z: 1.0000002}
+    - name: Tail
+      parentName: Spine4
+      position: {x: -1.1028405e-11, y: 0.058867924, z: -0.0000000011918809}
+      rotation: {x: 0.06790891, y: 7.7037085e-11, z: 0.00000000824735, w: 0.9976915}
+      scale: {x: 1, y: 1.0000001, z: 1.0000005}
+    - name: Tail_end
+      parentName: Tail
+      position: {x: -0, y: 0.039863862, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TopFlipper.L
+      parentName: Spine1
+      position: {x: -0.03212875, y: 0.02617988, z: -0.0261797}
+      rotation: {x: 0.27216265, y: -0.16618451, z: -0.57585305, w: -0.75279707}
+      scale: {x: 1, y: 1.0000002, z: 1.0000004}
+    - name: MidFlipper.L
+      parentName: TopFlipper.L
+      position: {x: 0.0000000023841857, y: 0.019964162, z: -0.0000000017881393}
+      rotation: {x: 0.031898208, y: 0.05981852, z: 0.10872754, w: 0.9917573}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999996}
+    - name: BottomFlipper.L
+      parentName: MidFlipper.L
+      position: {x: -1.4901161e-10, y: 0.01277824, z: 0.000000003427267}
+      rotation: {x: 0.004106514, y: 0.000164859, z: 0.0016703287, w: 0.99999017}
+      scale: {x: 0.9999998, y: 1.0000001, z: 1.0000005}
+    - name: BottomFlipper.L_end
+      parentName: BottomFlipper.L
+      position: {x: -0, y: 0.022781886, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TopFlipper.R
+      parentName: Spine1
+      position: {x: 0.02762296, y: 0.023537962, z: -0.02523058}
+      rotation: {x: 0.2641105, y: 0.1408618, z: 0.5803433, w: -0.7573673}
+      scale: {x: 1, y: 0.99999976, z: 1.0000002}
+    - name: MidFlipper.R
+      parentName: TopFlipper.R
+      position: {x: 0.0000000011920929, y: 0.024592327, z: 0.0000000011920929}
+      rotation: {x: 0.046233814, y: -0.061451912, z: -0.11776528, w: 0.9900594}
+      scale: {x: 0.99999994, y: 1, z: 0.99999964}
+    - name: BottomFlipper.R
+      parentName: MidFlipper.R
+      position: {x: 0.0000000020861626, y: 0.015906971, z: 0.0000000043213366}
+      rotation: {x: -0.013790533, y: 0.0005565061, z: 0.0036101006, w: 0.9998983}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000005}
+    - name: BottomFlipper.R_end
+      parentName: BottomFlipper.R
+      position: {x: -0, y: 0.021544188, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Head
+      parentName: Root
+      position: {x: -0.00007284522, y: 0.017268537, z: 0.05953816}
+      rotation: {x: 0.673733, y: -0.0000012333045, z: -0.0000011244196, w: 0.7389749}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Head_end
+      parentName: Head
+      position: {x: -0, y: 0.032132253, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Whale
+      parentName: Whale(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,884 @@
+fileFormatVersion: 2
+guid: 5f5de966b30d08c46abeeae4e000c1aa
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable:
+  - first:
+      74: -203655887218126122
+    second: mixamo.com
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: mixamo.com
+      takeName: mixamo.com
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 76
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: alien:Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: alien:LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: alien:RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: alien:LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: alien:RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: alien:LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: alien:RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: alien:Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: alien:Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: alien:Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: alien:Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: alien:LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: alien:RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: alien:LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: alien:RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: alien:LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: alien:RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: alien:LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: alien:RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: alien:LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: alien:RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: alien:LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: alien:LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: alien:LeftHandThumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: alien:LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: alien:LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: alien:LeftHandIndex3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: alien:LeftHandMiddle1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: alien:LeftHandMiddle2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: alien:LeftHandMiddle3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: alien:LeftHandRing1
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: alien:LeftHandRing2
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: alien:LeftHandRing3
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: alien:LeftHandPinky1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: alien:LeftHandPinky2
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: alien:LeftHandPinky3
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: alien:RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: alien:RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: alien:RightHandThumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: alien:RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: alien:RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: alien:RightHandIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: alien:RightHandMiddle1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: alien:RightHandMiddle2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: alien:RightHandMiddle3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: alien:RightHandRing1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: alien:RightHandRing2
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: alien:RightHandRing3
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: alien:RightHandPinky1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: alien:RightHandPinky2
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: alien:RightHandPinky3
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: alien:Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Fall Flat(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:Hips
+      parentName: Fall Flat(Clone)
+      position: {x: -0.0018660935, y: 1.1054472, z: 0.0013646674}
+      rotation: {x: 0.0985897, y: 0.006065667, z: 0.04188887, w: 0.99422765}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:Spine
+      parentName: alien:Hips
+      position: {x: -0, y: 0.123154, z: -0.002639}
+      rotation: {x: 0.07726456, y: -0.0074386713, z: -0.060652286, w: 0.99513626}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:Spine1
+      parentName: alien:Spine
+      position: {x: -0, y: 0.143713, z: 0}
+      rotation: {x: 0.017704517, y: 0.00058354024, z: -0.0044180155, w: 0.99983335}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:Spine2
+      parentName: alien:Spine1
+      position: {x: -0, y: 0.16424298, z: 0}
+      rotation: {x: 0.043506984, y: 0.0005630639, z: -0.0015946937, w: 0.9990517}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:Neck
+      parentName: alien:Spine2
+      position: {x: -0, y: 0.184774, z: 0}
+      rotation: {x: -0.10190047, y: 0.001823367, z: 0.0076860012, w: 0.99476326}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:Head
+      parentName: alien:Neck
+      position: {x: -0, y: 0.19793698, z: 0.044196}
+      rotation: {x: -0.019934287, y: -0.0053247935, z: 0.0021527933, w: 0.9997848}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:HeadTop_End
+      parentName: alien:Head
+      position: {x: -0, y: 0.31982598, z: 0.071411}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:LeftShoulder
+      parentName: alien:Spine2
+      position: {x: -0.05182, y: 0.15807, z: -0.000977}
+      rotation: {x: 0.6022634, y: -0.38972947, z: 0.5669316, w: 0.4049424}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:LeftArm
+      parentName: alien:LeftShoulder
+      position: {x: -0, y: 0.116237, z: 0}
+      rotation: {x: -0.13017459, y: -0.13812666, z: 0.041451514, w: 0.98094726}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:LeftForeArm
+      parentName: alien:LeftArm
+      position: {x: -0, y: 0.34707698, z: 0}
+      rotation: {x: -0.027173882, y: 0.4883212, z: -0.016898097, w: 0.87207705}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:LeftHand
+      parentName: alien:LeftForeArm
+      position: {x: -0, y: 0.383293, z: 0}
+      rotation: {x: -0.061788768, y: -0.051089138, z: -0.028478252, w: 0.996374}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:LeftHandThumb1
+      parentName: alien:LeftHand
+      position: {x: 0.029729, y: 0.044071, z: 0.012258}
+      rotation: {x: 0.11736591, y: 0.004460141, z: -0.37740234, w: 0.9185711}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:LeftHandThumb2
+      parentName: alien:LeftHandThumb1
+      position: {x: -0.000358, y: 0.043642998, z: 0}
+      rotation: {x: -0.016790623, y: -0.15893842, z: 0.04944323, w: 0.9859067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:LeftHandThumb3
+      parentName: alien:LeftHandThumb2
+      position: {x: 0.001482, y: 0.053278998, z: 0}
+      rotation: {x: -0.011713215, y: -0.010963046, z: -0.04557654, w: 0.99883205}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:LeftHandThumb4
+      parentName: alien:LeftHandThumb3
+      position: {x: -0.0011229999, y: 0.052805, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:LeftHandIndex1
+      parentName: alien:LeftHand
+      position: {x: 0.036214, y: 0.124470994, z: -0.000656}
+      rotation: {x: 0.03573592, y: -0.03800841, z: -0.033823904, w: 0.9980653}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:LeftHandIndex2
+      parentName: alien:LeftHandIndex1
+      position: {x: -0.00041299997, y: 0.050222, z: 0}
+      rotation: {x: 0.012079654, y: -0.00015255056, z: 0.008096601, w: 0.9998943}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:LeftHandIndex3
+      parentName: alien:LeftHandIndex2
+      position: {x: 0.000253, y: 0.045921, z: 0}
+      rotation: {x: 0.0059855133, y: -0.00010389108, z: -0.00032084083, w: 0.99998206}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:LeftHandIndex4
+      parentName: alien:LeftHandIndex3
+      position: {x: 0.00016000001, y: 0.043821, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:LeftHandMiddle1
+      parentName: alien:LeftHand
+      position: {x: 0.009075999, y: 0.128344, z: -0.002696}
+      rotation: {x: 0.04177416, y: 0.017986877, z: -0.029197251, w: 0.99853843}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:LeftHandMiddle2
+      parentName: alien:LeftHandMiddle1
+      position: {x: -0.000057999998, y: 0.052509997, z: 0}
+      rotation: {x: 0.009421147, y: -0.000007169316, z: 0.0020381904, w: 0.9999536}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:LeftHandMiddle3
+      parentName: alien:LeftHandMiddle2
+      position: {x: 0.000044, y: 0.048141997, z: 0}
+      rotation: {x: 0.01656638, y: -0.000026290909, z: 0.0014986432, w: 0.9998617}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:LeftHandMiddle4
+      parentName: alien:LeftHandMiddle3
+      position: {x: 0.000013999999, y: 0.046904996, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:LeftHandRing1
+      parentName: alien:LeftHand
+      position: {x: -0.013444, y: 0.12761599, z: -0.002554}
+      rotation: {x: 0.043560643, y: 0.037938584, z: -0.02723488, w: 0.9979586}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:LeftHandRing2
+      parentName: alien:LeftHandRing1
+      position: {x: 0.00016499999, y: 0.042965997, z: 0}
+      rotation: {x: 0.003931655, y: 0.000058572718, z: -0.0029153214, w: 0.999988}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:LeftHandRing3
+      parentName: alien:LeftHandRing2
+      position: {x: -0.000114, y: 0.03997, z: 0}
+      rotation: {x: 0.012851108, y: 0.000084449835, z: 0.0021686363, w: 0.9999151}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:LeftHandRing4
+      parentName: alien:LeftHandRing3
+      position: {x: -0.000051, y: 0.03818, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:LeftHandPinky1
+      parentName: alien:LeftHand
+      position: {x: -0.031846, y: 0.118694, z: -0.00051499996}
+      rotation: {x: 0.04136847, y: 0.0075422954, z: -0.01869059, w: 0.9989407}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:LeftHandPinky2
+      parentName: alien:LeftHandPinky1
+      position: {x: 0.00037099997, y: 0.036950998, z: 0}
+      rotation: {x: 0.010462291, y: 0.00022314109, z: -0.0066482727, w: 0.9999232}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:LeftHandPinky3
+      parentName: alien:LeftHandPinky2
+      position: {x: -0.00018100001, y: 0.030416999, z: 0}
+      rotation: {x: 0.011519245, y: 0.00007302104, z: 0.001238422, w: 0.99993294}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:LeftHandPinky4
+      parentName: alien:LeftHandPinky3
+      position: {x: -0.00018999999, y: 0.02947, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:RightShoulder
+      parentName: alien:Spine2
+      position: {x: 0.05182, y: 0.158052, z: -0.00016799998}
+      rotation: {x: 0.58162075, y: 0.4214055, z: -0.5445223, w: 0.43316308}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:RightArm
+      parentName: alien:RightShoulder
+      position: {x: -0, y: 0.116237, z: 0}
+      rotation: {x: -0.14751767, y: -0.119274616, z: 0.013801811, w: 0.98174417}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:RightForeArm
+      parentName: alien:RightArm
+      position: {x: -0, y: 0.34700802, z: 0}
+      rotation: {x: -0.025406444, y: -0.48980546, z: -0.00083618594, w: 0.87146115}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:RightHand
+      parentName: alien:RightForeArm
+      position: {x: -0, y: 0.384193, z: 0}
+      rotation: {x: -0.024178963, y: 0.025742497, z: 0.043579802, w: 0.9984255}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:RightHandThumb1
+      parentName: alien:RightHand
+      position: {x: -0.029326998, y: 0.04325, z: 0.011487}
+      rotation: {x: 0.21937172, y: 0.15626535, z: 0.3043985, w: 0.9136732}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:RightHandThumb2
+      parentName: alien:RightHandThumb1
+      position: {x: 0.00058, y: 0.042797998, z: 0}
+      rotation: {x: -0.02471079, y: 0.037477702, z: -0.05318231, w: 0.9975753}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:RightHandThumb3
+      parentName: alien:RightHandThumb2
+      position: {x: -0.002212, y: 0.052645996, z: 0}
+      rotation: {x: -0.026804857, y: -0.04167611, z: 0.05202457, w: 0.9974157}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:RightHandThumb4
+      parentName: alien:RightHandThumb3
+      position: {x: 0.001632, y: 0.053379998, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:RightHandIndex1
+      parentName: alien:RightHand
+      position: {x: -0.035431, y: 0.12041799, z: -0.00078299997}
+      rotation: {x: 0.051650725, y: -0.08231083, z: 0.04230197, w: 0.994368}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:RightHandIndex2
+      parentName: alien:RightHandIndex1
+      position: {x: 0.00059199997, y: 0.052438997, z: 0}
+      rotation: {x: 0.0107896235, y: 0.0004267914, z: -0.008527893, w: 0.99990535}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:RightHandIndex3
+      parentName: alien:RightHandIndex2
+      position: {x: -0.00018100001, y: 0.047599, z: 0}
+      rotation: {x: 0.019080302, y: -0.00014231086, z: -0.004335176, w: 0.99980855}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:RightHandIndex4
+      parentName: alien:RightHandIndex3
+      position: {x: -0.000411, y: 0.045684, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:RightHandMiddle1
+      parentName: alien:RightHand
+      position: {x: -0.010112999, y: 0.12742199, z: -0.001675}
+      rotation: {x: 0.051265366, y: -0.082730606, z: 0.03586025, w: 0.9946062}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:RightHandMiddle2
+      parentName: alien:RightHandMiddle1
+      position: {x: 0.000064, y: 0.052709997, z: 0}
+      rotation: {x: 0.009120937, y: 0.00002131611, z: -0.0018810653, w: 0.9999566}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:RightHandMiddle3
+      parentName: alien:RightHandMiddle2
+      position: {x: -0.000035999998, y: 0.048852, z: 0}
+      rotation: {x: 0.011980784, y: 0.000010350718, z: -0.0011230542, w: 0.99992764}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:RightHandMiddle4
+      parentName: alien:RightHandMiddle3
+      position: {x: -0.000028999999, y: 0.047069997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:RightHandRing1
+      parentName: alien:RightHand
+      position: {x: 0.012743999, y: 0.12974, z: -0.002554}
+      rotation: {x: 0.050336543, y: -0.09849281, z: 0.033518955, w: 0.99329853}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:RightHandRing2
+      parentName: alien:RightHandRing1
+      position: {x: -0.00016799998, y: 0.042439997, z: 0}
+      rotation: {x: 0.012667968, y: -0.000026181335, z: 0.0024515544, w: 0.99991685}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:RightHandRing3
+      parentName: alien:RightHandRing2
+      position: {x: 0.00013799999, y: 0.03924, z: 0}
+      rotation: {x: 0.0145377405, y: -0.00012905015, z: -0.0028127762, w: 0.9998904}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:RightHandRing4
+      parentName: alien:RightHandRing3
+      position: {x: 0.000031, y: 0.037172, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:RightHandPinky1
+      parentName: alien:RightHand
+      position: {x: 0.0328, y: 0.12104999, z: -0.001453}
+      rotation: {x: 0.047884878, y: -0.09618543, z: 0.030732641, w: 0.9937359}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:RightHandPinky2
+      parentName: alien:RightHandPinky1
+      position: {x: -0.000259, y: 0.036159, z: 0}
+      rotation: {x: 0.010458838, y: -0.000039398656, z: 0.005367921, w: 0.9999309}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:RightHandPinky3
+      parentName: alien:RightHandPinky2
+      position: {x: 0.000183, y: 0.029047, z: 0}
+      rotation: {x: 0.024794495, y: -0.00023918568, z: -0.004972607, w: 0.99968016}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:RightHandPinky4
+      parentName: alien:RightHandPinky3
+      position: {x: 0.000077, y: 0.027459, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:LeftUpLeg
+      parentName: alien:Hips
+      position: {x: -0.08720199, y: -0.068439, z: 0.0053689997}
+      rotation: {x: -0.055636253, y: 0.21528412, z: 0.97236365, w: 0.07117779}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:LeftLeg
+      parentName: alien:LeftUpLeg
+      position: {x: -0, y: 0.472542, z: 0}
+      rotation: {x: 0.31121224, y: -0.025477394, z: 0.0128067285, w: -0.9499126}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:LeftFoot
+      parentName: alien:LeftLeg
+      position: {x: -0, y: 0.43087, z: 0}
+      rotation: {x: -0.008288651, y: 0.86709714, z: 0.43467903, w: 0.2431625}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:LeftToeBase
+      parentName: alien:LeftFoot
+      position: {x: -0, y: 0.22245799, z: 0}
+      rotation: {x: 0.26842934, y: 0.08812429, z: -0.02470154, w: 0.95894194}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:LeftToe_End
+      parentName: alien:LeftToeBase
+      position: {x: -0, y: 0.088934, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:RightUpLeg
+      parentName: alien:Hips
+      position: {x: 0.08720199, y: -0.068439, z: 0.0053089997}
+      rotation: {x: 0.07569894, y: 0.21503192, z: 0.97266364, w: 0.044231687}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:RightLeg
+      parentName: alien:RightUpLeg
+      position: {x: -0, y: 0.472545, z: 0}
+      rotation: {x: -0.3373926, y: 0.014349086, z: -0.011735855, w: 0.9411815}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:RightFoot
+      parentName: alien:RightLeg
+      position: {x: -0, y: 0.430874, z: 0}
+      rotation: {x: 0.66198564, y: 0.14953287, z: 0.029395683, w: 0.73386025}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:RightToeBase
+      parentName: alien:RightFoot
+      position: {x: -0, y: 0.22195, z: 0}
+      rotation: {x: 0.2550741, y: -0.08823704, z: 0.0231604, w: 0.96260846}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien:RightToe_End
+      parentName: alien:RightToeBase
+      position: {x: -0, y: 0.087802, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
