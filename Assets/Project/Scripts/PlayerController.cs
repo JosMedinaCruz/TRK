@@ -25,6 +25,8 @@ public class PlayerController : MonoBehaviour
     private float knockBackCounter;
     public Vector2 knockBackPower;
 
+    public int playerSound;
+
     public GameObject[] playerPieces;
 
     public float bounceForce = 8f;
@@ -106,6 +108,7 @@ public class PlayerController : MonoBehaviour
             {
                 //Attack();
                 StartCoroutine(Attack());
+                //AudioManager.instance.PlaySFX(playerSound);
                 Debug.Log("attack");
             }
 
@@ -132,6 +135,7 @@ public class PlayerController : MonoBehaviour
 
     private IEnumerator Attack()
     {
+         
         //animator.SetLayerWeight(animator.GetLayerIndex("Attack Layer"), 1);//Cuando ataca
         animator.SetTrigger("Attack");//Animacion
 

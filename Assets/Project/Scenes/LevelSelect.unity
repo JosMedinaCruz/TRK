@@ -654,7 +654,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90bc177a19f5b2d43bc80c70e6b8b927, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelToUnlock: SampleScene
+  levelToUnlock: Test1
 --- !u!4 &567451403
 Transform:
   m_ObjectHideFlags: 0
@@ -1112,12 +1112,12 @@ PrefabInstance:
     - target: {fileID: 8049072614228022844, guid: 343e990a588efd341b814aebee154f4d,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.00055155763
+      value: 0.00055146485
       objectReference: {fileID: 0}
     - target: {fileID: 8049072614228022844, guid: 343e990a588efd341b814aebee154f4d,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.00014914636
+      value: -0.00014916484
       objectReference: {fileID: 0}
     - target: {fileID: 8049072615019806988, guid: 343e990a588efd341b814aebee154f4d,
         type: 3}
@@ -1147,12 +1147,12 @@ PrefabInstance:
     - target: {fileID: 8049072615019806988, guid: 343e990a588efd341b814aebee154f4d,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.0010944378
+      value: 0.0010943715
       objectReference: {fileID: 0}
     - target: {fileID: 8049072615019806988, guid: 343e990a588efd341b814aebee154f4d,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.000036985606
+      value: -0.000036983365
       objectReference: {fileID: 0}
     - target: {fileID: 8049072615167007502, guid: 343e990a588efd341b814aebee154f4d,
         type: 3}
@@ -1182,12 +1182,12 @@ PrefabInstance:
     - target: {fileID: 8049072615167007502, guid: 343e990a588efd341b814aebee154f4d,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.0005487452
+      value: 0.00054866826
       objectReference: {fileID: 0}
     - target: {fileID: 8049072615167007502, guid: 343e990a588efd341b814aebee154f4d,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.00015915575
+      value: -0.0001591696
       objectReference: {fileID: 0}
     - target: {fileID: 8049072615228676904, guid: 343e990a588efd341b814aebee154f4d,
         type: 3}
@@ -1217,12 +1217,12 @@ PrefabInstance:
     - target: {fileID: 8049072615228676904, guid: 343e990a588efd341b814aebee154f4d,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.0005541584
+      value: 0.00055409357
       objectReference: {fileID: 0}
     - target: {fileID: 8049072615228676904, guid: 343e990a588efd341b814aebee154f4d,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.00013911884
+      value: -0.00013913296
       objectReference: {fileID: 0}
     - target: {fileID: 8049072615504186020, guid: 343e990a588efd341b814aebee154f4d,
         type: 3}
