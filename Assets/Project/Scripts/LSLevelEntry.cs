@@ -39,7 +39,7 @@ public class LSLevelEntry : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetButtonDown("Jump") && canLoadLevel && _levelUnlocked && !levelLoading) //Cuando pase por la esfera del LS y pase el nivel
+        if(Input.GetKeyDown(KeyCode.E) && canLoadLevel && _levelUnlocked && !levelLoading) //Cuando pase por la esfera del LS y pase el nivel
         {
             StartCoroutine("LevelLoadWaiter");
             levelLoading = true;
