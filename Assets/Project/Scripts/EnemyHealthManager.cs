@@ -29,8 +29,8 @@ public class EnemyHealthManager : MonoBehaviour
             Destroy(gameObject);
 
             Instantiate(deathEffect, transform.position + new Vector3(0f,-1f,0f), transform.rotation);
-            Instantiate(itemDrop, transform.position + new Vector3(1.5f,1f,0f), transform.rotation);
-            Instantiate(itemDrop2, transform.position + new Vector3(-1.5f,1f,0f), transform.rotation);
+            Instantiate(itemDrop, transform.position + new Vector3(1.5f,0.1f,0f), transform.rotation);
+            Instantiate(itemDrop2, transform.position + new Vector3(-1.5f,0.1f,0f), transform.rotation);
         }
         
         PlayerController.instance.Bounce();

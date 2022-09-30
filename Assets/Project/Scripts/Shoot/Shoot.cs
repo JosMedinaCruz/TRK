@@ -4,25 +4,30 @@ using UnityEngine;
 
 public class Shoot : MonoBehaviour
 {
-    public GameObject BalaInicio;
-    public GameObject BalaPrefab;
-    public float BalaVelocidad;
+    public GameObject bullet;
+    public Transform spawnPoint;
     
+    public float shotForce = 1500;
     public float shotRate = 0.5f;
+    
     private float shotRateTime = 0;
 
     void Update()
     {
         if(Input.GetButton("Fire2"))
         {
-        GameObject BalaTemporal = Instantiate(BalaPrefab, BalaInicio.transform.position, BalaInicio.transform.rotation) as GameObject;
+            if(Time.time > shotRateTime)
+            {
+                GameObject newBullet;
 
-        Rigidbody rb = BalaTemporal.GetComponent<Rigidbody>();
-        rb.AddForce(transform.forward * BalaVelocidad);
+                newBullet = Instantiate(bullet, spawnPoint.position, spawnPoint.rotation);
 
-        shotRateTime = Time.time + shotRate;
+                newBullet.GetComponent<Rigidbody>().AddForce(spawnPoint.forward * shotForce);
 
-        Destroy(BalaTemporal, 2f);
+                shotForce = Time.time + shotRate;
+
+                Destroy(newBullet, 2f);
+            }
         }
     }
 }

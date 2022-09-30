@@ -406,12 +406,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36e863e28a3674d46aca95037bb1de0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  firstLevel: SampleScene
-  levelSelect: Test1
+  firstLevel: Level1
+  levelSelect: LevelSelect
   continueButton: {fileID: 1891685356}
   levelNames:
   - SampleScene
   - Test1
+  - Level1
 --- !u!1001 &207139750
 PrefabInstance:
   m_ObjectHideFlags: 0
